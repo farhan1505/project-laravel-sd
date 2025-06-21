@@ -8,6 +8,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    base: '/build/', // ⬅️ Ini penting agar semua asset pakai path relatif
     server: {
         host: true,
         port: 5173,
